@@ -5,7 +5,7 @@ import '../styles/index.css';
 const fs = require('fs');
 const pdf = require('pdf-parse');
  
-let dataBuffer = fs.readFileSync('path to PDF file...');
+let dataBuffer = fs.readFileSync('http://share.paretosec.com/upload/files/OTC_prices_web.pdf');
  
 pdf(dataBuffer).then(function(data) {
  
